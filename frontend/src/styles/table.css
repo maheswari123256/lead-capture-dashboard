@@ -1,0 +1,45 @@
+/* ===== TABLE WRAPPER ===== */
+.table-wrapper {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+/* ===== TABLE ===== */
+.lead-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+/* ===== HEADER ===== */
+.lead-table th {
+  background: #4a90e2;
+  color: white;
+  padding: 14px;
+  text-align: left;
+  font-weight: 500;
+}
+
+/* ===== CELLS ===== */
+.lead-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* ===== HOVER ===== */
+.lead-table tr:hover {
+  background: #f1f5f9;
+}
+
+/* ===== DARK MODE TABLE ===== */
+body.dark .lead-table th {
+  background: #2563eb;
+}
+
+body.dark .lead-table tr:hover {
+  background: #2a2a2a;
+}
+
+body.dark .lead-table td {
+  border-bottom: 1px solid #333;
+}

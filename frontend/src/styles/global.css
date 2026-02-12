@@ -1,0 +1,48 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+  transition: 0.3s ease;
+}
+
+/* ===== HEADINGS ===== */
+h1, h2, h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ===== SUCCESS & ERROR ===== */
+.success {
+  color: #16a34a;
+  font-size: 14px;
+  text-align: center;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* ===== DARK MODE ===== */
+body.dark {
+  background: #121212;
+  color: #ffffff;
+}

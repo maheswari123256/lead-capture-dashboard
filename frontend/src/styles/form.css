@@ -1,0 +1,88 @@
+/* ===== FORM CARD ===== */
+.lead-form {
+  width: 95%;
+  max-width: 520px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+/* ===== LABEL ===== */
+.lead-form label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* ===== INPUTS ===== */
+.lead-form input,
+.lead-form textarea,
+.lead-form select {
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.lead-form input:focus,
+.lead-form textarea:focus,
+.lead-form select:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.lead-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* ===== BUTTON ===== */
+.lead-form button {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.lead-form button:hover {
+  background: #357abd;
+}
+
+.lead-form button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* ===== DARK MODE FORM ===== */
+body.dark .lead-form {
+  background: #1e1e1e;
+}
+
+body.dark .lead-form input,
+body.dark .lead-form textarea,
+body.dark .lead-form select {
+  background: #2a2a2a;
+  color: white;
+  border: 1px solid #444;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 600px) {
+  .lead-form {
+    padding: 20px;
+    margin: 20px auto;
+  }
+}

@@ -1,0 +1,66 @@
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background: #4a90e2;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar h3 {
+  font-size: 20px;
+}
+
+/* ===== LINKS ===== */
+.navbar a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  opacity: 0.8;
+}
+
+/* ===== BUTTON ===== */
+.navbar button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  background: white;
+  color: #4a90e2;
+  transition: 0.3s;
+}
+
+.navbar button:hover {
+  background: #f1f1f1;
+}
+
+/* ===== MOBILE NAV ===== */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 12px 20px;
+  }
+
+  .navbar h3 {
+    font-size: 16px;
+  }
+
+  .navbar a {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+}
+
+/* ===== DARK MODE NAV ===== */
+body.dark .navbar {
+  background: #1f2937;
+}
