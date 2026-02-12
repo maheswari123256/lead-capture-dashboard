@@ -62,7 +62,7 @@ lead-capture-app/
 
 Setup Instructions
 1. Clone Repository
-git clone https://github.com/your-username/lead-capture-dashboard.git
+git clone https://github.com/maheswari123256/lead-capture-dashboard.git
 2. Backend Setup
 cd backend
 npm install
